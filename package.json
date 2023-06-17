@@ -1,0 +1,17 @@
+{
+  "name": "succscrape",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11"
+  },
+  "devDependencies": {
+    "cypress": "^10.0.1"
+  }
+}
